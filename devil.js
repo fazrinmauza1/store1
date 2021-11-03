@@ -820,9 +820,6 @@ function banChat() {
 	    }
 	
 	    // Auto Read
-        devil.chatRead(from, "read")
-        //auto vn 
-        await devil.updatePresence(from, Presence.recording)
 
        // CMD
         if (isCmd && !isGroup)
