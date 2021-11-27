@@ -902,9 +902,9 @@ function banChat() {
         case 'admin':
                sendKontak(from, `${owner}`, `${ownerName}`, 'Sibukk!!')
                await sleep(1000)
-               txtt =`Hai Kak..... ${pushname}\nItu Ownerku, Mau tau soal apa ya?`
+               txtt =`Hai Kak..... ${pushname}\nItu Admin Lovely Toxic Store, Mau tau soal apa ya?`
 
-               buttons = [{buttonId: '!infotk',buttonText:{displayText: 'TIKTOK'},type:1},{buttonId:'!infoig',buttonText:{displayText:'INSTAGRAM'},type:1}]
+               buttons = [{buttonId: '!iHSUSHotk',buttonText:{displayText: 'OK SIP'},type:1},{buttonId:'!iG6SHSHoig',buttonText:{displayText:'SIAP BANG'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
